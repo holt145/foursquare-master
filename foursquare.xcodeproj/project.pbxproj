@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		842EA672205B8D3E003A2FA0 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842EA671205B8D3E003A2FA0 /* Point.swift */; };
+		8467B3ED2036A898009FC0AE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8467B3EC2036A898009FC0AE /* User.swift */; };
+		8467B3EF2036A914009FC0AE /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8467B3EE2036A914009FC0AE /* Post.swift */; };
+		8467B3F12036AC10009FC0AE /* Date+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8467B3F02036AC10009FC0AE /* Date+extension.swift */; };
+		8467B3F32036AE34009FC0AE /* UIColor+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8467B3F22036AE34009FC0AE /* UIColor+extension.swift */; };
+		8484072B2032A75E000589E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8484072A2032A75E000589E3 /* AppDelegate.swift */; };
+		8484072D2032A75E000589E3 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8484072C2032A75E000589E3 /* MapController.swift */; };
+		848407302032A75E000589E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8484072E2032A75E000589E3 /* Main.storyboard */; };
+		848407322032A75E000589E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848407312032A75E000589E3 /* Assets.xcassets */; };
+		848407352032A75E000589E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848407332032A75E000589E3 /* LaunchScreen.storyboard */; };
+		84AA08F3203BF6E9003AE189 /* CustomMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AA08F2203BF6E9003AE189 /* CustomMarkerView.swift */; };
+		84AA08F5203BF8FD003AE189 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AA08F4203BF8FD003AE189 /* PreviewView.swift */; };
+		84AA08F7203C0322003AE189 /* AdvancedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AA08F6203C0322003AE189 /* AdvancedViewController.swift */; };
+		84F2B3B42032C91B006DF333 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F2B3B32032C91B006DF333 /* LoginController.swift */; };
+		D10CCC40399554E8C2F85EB7 /* libPods-foursquare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F39E98ADC84C3BA64D9A78CF /* libPods-foursquare.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		842EA671205B8D3E003A2FA0 /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		8467B3EC2036A898009FC0AE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8467B3EE2036A914009FC0AE /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		8467B3F02036AC10009FC0AE /* Date+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+extension.swift"; sourceTree = "<group>"; };
+		8467B3F22036AE34009FC0AE /* UIColor+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+extension.swift"; sourceTree = "<group>"; };
+		848407272032A75E000589E3 /* foursquare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = foursquare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8484072A2032A75E000589E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8484072C2032A75E000589E3 /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		8484072F2032A75E000589E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		848407312032A75E000589E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		848407342032A75E000589E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		848407362032A75E000589E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84AA08F2203BF6E9003AE189 /* CustomMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMarkerView.swift; sourceTree = "<group>"; };
+		84AA08F4203BF8FD003AE189 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		84AA08F6203C0322003AE189 /* AdvancedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedViewController.swift; sourceTree = "<group>"; };
+		84F2B3B32032C91B006DF333 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		8DE75D9C15531ECB7A82AC9C /* Pods-foursquare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foursquare.release.xcconfig"; path = "Pods/Target Support Files/Pods-foursquare/Pods-foursquare.release.xcconfig"; sourceTree = "<group>"; };
+		CB7F710656FB98E29638F6A4 /* Pods-foursquare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foursquare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-foursquare/Pods-foursquare.debug.xcconfig"; sourceTree = "<group>"; };
+		F39E98ADC84C3BA64D9A78CF /* libPods-foursquare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-foursquare.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		848407242032A75E000589E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10CCC40399554E8C2F85EB7 /* libPods-foursquare.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E8A79839D7BAEEE627256B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F39E98ADC84C3BA64D9A78CF /* libPods-foursquare.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8484071E2032A75E000589E3 = {
+			isa = PBXGroup;
+			children = (
+				848407292032A75E000589E3 /* foursquare */,
+				848407282032A75E000589E3 /* Products */,
+				F4E762D0CDFABFC57BD73E42 /* Pods */,
+				1E8A79839D7BAEEE627256B5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		848407282032A75E000589E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				848407272032A75E000589E3 /* foursquare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		848407292032A75E000589E3 /* foursquare */ = {
+			isa = PBXGroup;
+			children = (
+				8484072A2032A75E000589E3 /* AppDelegate.swift */,
+				8484072C2032A75E000589E3 /* MapController.swift */,
+				84AA08F2203BF6E9003AE189 /* CustomMarkerView.swift */,
+				84AA08F4203BF8FD003AE189 /* PreviewView.swift */,
+				84F2B3B32032C91B006DF333 /* LoginController.swift */,
+				8484072E2032A75E000589E3 /* Main.storyboard */,
+				848407312032A75E000589E3 /* Assets.xcassets */,
+				848407332032A75E000589E3 /* LaunchScreen.storyboard */,
+				848407362032A75E000589E3 /* Info.plist */,
+				8467B3EC2036A898009FC0AE /* User.swift */,
+				8467B3EE2036A914009FC0AE /* Post.swift */,
+				8467B3F02036AC10009FC0AE /* Date+extension.swift */,
+				8467B3F22036AE34009FC0AE /* UIColor+extension.swift */,
+				84AA08F6203C0322003AE189 /* AdvancedViewController.swift */,
+				842EA671205B8D3E003A2FA0 /* Point.swift */,
+			);
+			path = foursquare;
+			sourceTree = "<group>";
+		};
+		F4E762D0CDFABFC57BD73E42 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB7F710656FB98E29638F6A4 /* Pods-foursquare.debug.xcconfig */,
+				8DE75D9C15531ECB7A82AC9C /* Pods-foursquare.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		848407262032A75E000589E3 /* foursquare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848407392032A75E000589E3 /* Build configuration list for PBXNativeTarget "foursquare" */;
+			buildPhases = (
+				7BC57A09EE3FDB1A23CD1A41 /* [CP] Check Pods Manifest.lock */,
+				848407232032A75E000589E3 /* Sources */,
+				848407242032A75E000589E3 /* Frameworks */,
+				848407252032A75E000589E3 /* Resources */,
+				1D0D138702C4EC9D74096F88 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = foursquare;
+			productName = foursquare;
+			productReference = 848407272032A75E000589E3 /* foursquare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8484071F2032A75E000589E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Juan Cabral";
+				TargetAttributes = {
+					848407262032A75E000589E3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 848407222032A75E000589E3 /* Build configuration list for PBXProject "foursquare" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8484071E2032A75E000589E3;
+			productRefGroup = 848407282032A75E000589E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				848407262032A75E000589E3 /* foursquare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		848407252032A75E000589E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848407352032A75E000589E3 /* LaunchScreen.storyboard in Resources */,
+				848407322032A75E000589E3 /* Assets.xcassets in Resources */,
+				848407302032A75E000589E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D0D138702C4EC9D74096F88 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-foursquare/Pods-foursquare-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-foursquare/Pods-foursquare-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BC57A09EE3FDB1A23CD1A41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-foursquare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		848407232032A75E000589E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8467B3ED2036A898009FC0AE /* User.swift in Sources */,
+				84AA08F3203BF6E9003AE189 /* CustomMarkerView.swift in Sources */,
+				84AA08F5203BF8FD003AE189 /* PreviewView.swift in Sources */,
+				8467B3F12036AC10009FC0AE /* Date+extension.swift in Sources */,
+				8484072D2032A75E000589E3 /* MapController.swift in Sources */,
+				8467B3F32036AE34009FC0AE /* UIColor+extension.swift in Sources */,
+				84AA08F7203C0322003AE189 /* AdvancedViewController.swift in Sources */,
+				842EA672205B8D3E003A2FA0 /* Point.swift in Sources */,
+				84F2B3B42032C91B006DF333 /* LoginController.swift in Sources */,
+				8484072B2032A75E000589E3 /* AppDelegate.swift in Sources */,
+				8467B3EF2036A914009FC0AE /* Post.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8484072E2032A75E000589E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8484072F2032A75E000589E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		848407332032A75E000589E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848407342032A75E000589E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		848407372032A75E000589E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		848407382032A75E000589E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8484073A2032A75E000589E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB7F710656FB98E29638F6A4 /* Pods-foursquare.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SULUWNAMN;
+				INFOPLIST_FILE = foursquare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juancabral.foursquare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8484073B2032A75E000589E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DE75D9C15531ECB7A82AC9C /* Pods-foursquare.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SULUWNAMN;
+				INFOPLIST_FILE = foursquare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juancabral.foursquare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		848407222032A75E000589E3 /* Build configuration list for PBXProject "foursquare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848407372032A75E000589E3 /* Debug */,
+				848407382032A75E000589E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848407392032A75E000589E3 /* Build configuration list for PBXNativeTarget "foursquare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8484073A2032A75E000589E3 /* Debug */,
+				8484073B2032A75E000589E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8484071F2032A75E000589E3 /* Project object */;
+}
